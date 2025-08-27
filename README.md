@@ -16,7 +16,7 @@
 
 - The header should be a component
 - The footer should be a component
-- Move the CSS to their individual pages using inline styling. For the global styles such as *body* and *main*, place them inside `src/styles/global.css`. You need to create this file first and import it into each page using:
+- Move the CSS to their individual pages using inline styling. For the global styles such as *body* and *main*, place them inside `src/styles/global.css`. You need to create this file first and import it into each page or a layout file using:
   
   ```js
   import '../styles/global.css 
